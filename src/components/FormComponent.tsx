@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 import styled from 'styled-components'
-import { StyledButton, StyledInput } from '../components'
+import { StyledButton, StyledInput } from '.'
 import type { FormComponentProps } from '../types'
 import { pxToRem } from '../utils'
 
