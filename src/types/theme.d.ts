@@ -20,7 +20,7 @@ export interface Theme {
     background: string
     border: string
     success: string
-    waring: string
+    warning: string
   }
   textInput: {
     active: string
@@ -36,4 +36,9 @@ export interface Theme {
     subtitle: string
     success: string
   }
+}
+
+declare module 'styled-components' {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  export interface DefaultTheme extends Theme {}
 }
