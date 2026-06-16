@@ -11,17 +11,17 @@ import { currencyConverter } from '../utils'
 function Home() {
   const mockListData = [
     {
-      avatar: '/alien-black.svg',
+      avatar: '/alien-circle.png',
       name: 'Name Lastname 1',
       subtitle: currencyConverter(1608.04),
     },
     {
-      avatar: '/alien-black.svg',
+      avatar: '/alien-circle.png',
       name: 'Name Lastname 2',
       subtitle: currencyConverter(5944.12),
     },
     {
-      avatar: '/alien-black.svg',
+      avatar: '/alien-circle.png',
       name: 'Name Lastname 3',
       subtitle: currencyConverter(883.46),
     },

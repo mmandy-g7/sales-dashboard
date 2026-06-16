@@ -4,7 +4,7 @@ export const lightTheme: Theme = {
   appBackground: '#FFF',
   appColor: '#000',
   appDefaultStroke: '#E0E0E0',
-  appLogo: 'alien-green.svg',
+  appLogo: 'alien-green.png',
   appSkeletonFrom: '#EEE',
   appSkeletonTo: '#ccc',
   buttons: {
@@ -44,7 +44,7 @@ export const darkTheme: Theme = {
   appBackground: '#000022',
   appColor: '#FFF',
   appDefaultStroke: '#570069',
-  appLogo: 'alien-white.svg',
+  appLogo: 'alien-green.png',
   appSkeletonFrom: '#060B26',
   appSkeletonTo: '#570069',
   buttons: {
